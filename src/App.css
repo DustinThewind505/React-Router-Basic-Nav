@@ -4,6 +4,7 @@
 
 .Nav-link {
   padding: 2rem;
+  text-decoration: overline;
 }
 
 .nav-item {
