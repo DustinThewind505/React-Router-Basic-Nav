@@ -1,0 +1,31 @@
+.Nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.NavLink {
+    font-size: 4rem;
+    color: black;
+}
+
+.mainHeader {
+    margin-top: -0.6%;
+    letter-spacing: 3rem;
+}
+
+.header1 {
+    font-size: 3rem;
+    color: red;
+  }
+
+  .header2 {
+    font-size: 4rem;
+    color: darkorange;
+  }
+
+  .header3 {
+    font-size: 5rem;
+    color: gold;
+  }
+  

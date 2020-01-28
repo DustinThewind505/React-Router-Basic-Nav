@@ -1,19 +1,24 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
+import './Components.css';
 const Navigation = () => {
   return (
     <div>
       <div className="App">
-        <h1>React Router Mini</h1>
+        <h1 className='mainHeader'>React Router Mini</h1>
+        <section className="Nav">
         <div>
-          <a href="">Home</a>
+          <Link to="/" className="NavLink">
+          Home
+          </Link>
         </div>
         <div>
-          <a href="">About</a>
+          <Link  to="/about" className="NavLink">About</Link>
         </div>
         <div>
-          <a href="">Contact</a>
+          <Link  to="/contact" className="NavLink">Contact</Link>
         </div>
+        </section>
       </div>
     </div>
   );
