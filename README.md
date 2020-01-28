@@ -21,16 +21,16 @@ Topics:
 
 - [X] You'll notice we've already installed `react-router-dom` for you.
 - [X] `import` your BrowserRouter as Router inside your `index.js` file.
-- [ ] Wrap your `<App />` component that you're passing to `ReactDOM.render()` with your new `Router` component.
-- [ ] open up your chrome `REACT DEV TOOLS` and notice your app is now all wrapped in `BrowserRouter`
+- [X] Wrap your `<App />` component that you're passing to `ReactDOM.render()` with your new `Router` component.
+- [X] open up your chrome `REACT DEV TOOLS` and notice your app is now all wrapped in `BrowserRouter`
 
 
 ### Steps for "Declaring" your routes
 
-- [ ] Inside of your `App.js` file `import { Route } from 'react-router-dom';`
-- [ ] This is where we're going to declare and specify our router.
-- [ ] Create 3 `<Route />` setting their `path` prop equal to `/`, `/about`, `/contact` with their respective components.
-- [ ] Be sure to include the `exact` prop on the root component for `/` to make sure that it's rendering the exact component and not all the other components.
+- [X] Inside of your `App.js` file `import { Route } from 'react-router-dom';`
+- [X] This is where we're going to declare and specify our router.
+- [X] Create 3 `<Route />` setting their `path` prop equal to `/`, `/about`, `/contact` with their respective components.
+- [X] Be sure to include the `exact` prop on the root component for `/` to make sure that it's rendering the exact component and not all the other components.
 
 ### Steps for setting up your Navigation
 
